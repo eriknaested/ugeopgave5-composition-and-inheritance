@@ -1,7 +1,7 @@
 public class Rabbit extends Animal{
 
-    Rabbit(String name, int energy) {
-        super(name, energy);
+    Rabbit(String name) {
+        super(name, 200);
     }
 
     @Override

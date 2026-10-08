@@ -1,7 +1,7 @@
 public class Lion extends Animal{
 
-    Lion(String name, int energy) {
-        super(name, energy);
+    Lion(String name) {
+        super(name, 100);
     }
 
     @Override

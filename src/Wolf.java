@@ -2,8 +2,8 @@ import java.util.Random;
 
 public class Wolf extends Animal{
 
-    Wolf(String name, int energy) {
-        super(name, energy);
+    Wolf(String name) {
+        super(name, 100);
     }
 
     @Override
